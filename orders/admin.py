@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import *
-from landing.models import Person
+
+#Запись в админку
 
 class StatusAdmin(admin.ModelAdmin):
     list_display = [field.name for field in Status._meta.fields]
