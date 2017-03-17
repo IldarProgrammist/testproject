@@ -16,7 +16,7 @@ class OrderAdmin(admin.ModelAdmin):
 
     class Meta:
         model = Order
-admin.site.register(Order)
+admin.site.register(Order, OrderAdmin)
 
 
 class ProductInProductInOrderAdmin(admin.ModelAdmin):
