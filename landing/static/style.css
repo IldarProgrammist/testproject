@@ -16,28 +16,27 @@ html,body{
 .general-container form{
     margin-top: 35px;
 }
-
-
 .general-container input{
     font-weight: 300;
-
 }
 .title{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: 100;
     line-height: 50px;
     color: white;
 }
 
+
+
+
 .btn-orange{
     background-color:#e8643e;
     border:none;
-
 }
 
 .btn-orange:hover{
     background-color: #dc5129;
-    border:none ;
 }
 
 .lab{
