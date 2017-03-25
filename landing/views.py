@@ -10,3 +10,9 @@ def landing(request):
     if request.method =="POST" and form.is_valid():
         new_form = form.save()
     return render(request,'landing/landing.html', locals())
+
+
+def home(request):
+
+    return render(request,'landing/home.html', locals())
+
