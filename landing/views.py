@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from products.models import Product
 
 from landing.forms import PersonForm
 
@@ -13,6 +14,6 @@ def landing(request):
 
 
 def home(request):
-
+    products = Product.objects.filter(is_active=True)
     return render(request,'landing/home.html', locals())
 
