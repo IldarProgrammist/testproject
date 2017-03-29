@@ -10,7 +10,7 @@ html,body{
 }
 
 .general-container {
-    background: url('img/1.jpg');
+    background: url('../../img/1.jpg');
     height: 100%;
 }
 .general-container form{
@@ -28,8 +28,6 @@ html,body{
 }
 
 
-
-
 .btn-orange{
     background-color:#e8643e;
     border:none;
@@ -43,9 +41,4 @@ html,body{
     color: white;
     font-family: 'Roboto', sans-serif;
      font-weight: 100;
-}
-
-.product-item{
-    height: 200px;
-    background-color: gray;
 }
